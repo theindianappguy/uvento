@@ -4,6 +4,8 @@
 
 Live Demo : http://bit.ly/339nOrA
 
+Credits : [UVENTO App](https://dribbble.com/shots/9519342-UVENTO-App-Event-app-Exploration)
+
 ## Show Support
 * [Recommend Me On LinkedIn](https://www.linkedin.com/in/lamsanskar/) - I will realy Appriciate this
 * Don't forget to star ⭐ the repo 😉, it's FREE.
