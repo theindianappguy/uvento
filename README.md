@@ -15,4 +15,4 @@ Flutter Events app made with Flutter, Hosted on Codemagic. Don't forget to star 
 </p>
 
 🙏 Credits
-[UVENTO App](https://dribbble.com/shots/9519342-UVENTO-App-Event-app-Exploration)
+[Uvento App](https://dribbble.com/shots/9519342-UVENTO-App-Event-app-Exploration)
