@@ -1,11 +1,18 @@
 ![Flutter Event App UI Design Github](https://user-images.githubusercontent.com/55942632/76284905-7dafb280-62c4-11ea-8fbd-ceaaf21257ea.png)
 
-[![Codemagic build status](https://api.codemagic.io/apps/5e6728a54ce63c00080cf9fc/5e6728a54ce63c00080cf9fb/status_badge.svg)](https://codemagic.io/apps/5e6728a54ce63c00080cf9fc/5e6728a54ce63c00080cf9fb/latest_build)
+<p align="center">
+  <a href="https://twitter.com/Theindianappguy">
+    <img src="https://img.shields.io/github/stars/theindianappguy/TinderGoldRedesign?style=for-the-badge" alt="Total downloads on GitHub." /></a>
+<a href="https://www.linkedin.com/in/lamsanskar/">
+    <img src="https://img.shields.io/badge/Support-Recommed%2FEndorse%20me%20on%20Linkedin-yellow?style=for-the-badge&logo=linkedin" alt="Recommend me on LinkedIn" /></a>
 
-Live Demo : http://bit.ly/339nOrA
+<a href="http://bit.ly/339nOrA">
+    <img src="https://img.shields.io/badge/Flutter%20Web-Live%20Demo-green?style=for-the-badge&logo=flutter" alt="Try Live Demo" /></a>
+</p>
 
-Credits : [UVENTO App](https://dribbble.com/shots/9519342-UVENTO-App-Event-app-Exploration)
+<p align= "center">
+Flutter Events app made with Flutter, Hosted on Codemagic. Don't forget to star ⭐ the repo it motivates me to share more open source
+</p>
 
-## Show Support
-* [Recommend Me On LinkedIn](https://www.linkedin.com/in/lamsanskar/) - I will realy Appriciate this
-* Don't forget to star ⭐ the repo 😉, it's FREE.
+🙏 Credits
+[UVENTO App](https://dribbble.com/shots/9519342-UVENTO-App-Event-app-Exploration)
