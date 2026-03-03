@@ -1,30 +1,40 @@
-// This is a basic Flutter widget test.
-//
-// To perform an interaction with a widget in your test, use the WidgetTester
-// utility that Flutter provides. For example, you can send tap and scroll
-// gestures. You can also use WidgetTester to find child widgets in the widget
-// tree, read text, and verify that the values of widget properties are correct.
-
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:uvento/main.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
-    await tester.pumpWidget(MyApp());
+  testWidgets('SplashScreen renders correctly', (WidgetTester tester) async {
+    await tester.pumpWidget(const MyApp());
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
+    // Verify the app title text is displayed
+    expect(find.text('UVE'), findsOneWidget);
+    expect(find.text('NTO'), findsOneWidget);
 
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
-    await tester.pump();
+    // Verify the tagline is displayed
+    expect(
+      find.text(
+        "There's a lot happening around you! Our mission is to provide what's happening near you!",
+      ),
+      findsOneWidget,
+    );
 
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+    // Verify the Get Started button is displayed
+    expect(find.text('Get Started'), findsOneWidget);
+    expect(find.byIcon(Icons.arrow_forward), findsOneWidget);
+  });
+
+  testWidgets('Tapping Get Started navigates to HomeScreen',
+      (WidgetTester tester) async {
+    await tester.pumpWidget(const MyApp());
+
+    // Tap the Get Started button
+    await tester.tap(find.text('Get Started'));
+    await tester.pumpAndSettle();
+
+    // Verify we navigated to HomeScreen by checking for home-specific text
+    expect(find.text('Hello, Sanskar!'), findsOneWidget);
+    expect(find.text('All Events'), findsOneWidget);
+    expect(find.text('Popular Events'), findsOneWidget);
   });
 }

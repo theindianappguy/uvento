@@ -1,6 +1,9 @@
-class DateModel{
+class DateModel {
+  final String weekDay;
+  final String date;
 
-  String weekDay;
-  String date;
-
+  const DateModel({
+    required this.weekDay,
+    required this.date,
+  });
 }
